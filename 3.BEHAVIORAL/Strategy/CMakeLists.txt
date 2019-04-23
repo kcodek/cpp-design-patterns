@@ -7,4 +7,5 @@ project(Strategy
 # Always use '-fPIC'/'-fPIE' option.
 set( CMAKE_POSITION_INDEPENDENT_CODE ON )   
 
-add_subdirectory(strategy_01)
+add_subdirectory(strategy_schmidh)
+add_subdirectory(strategy_vinceh)

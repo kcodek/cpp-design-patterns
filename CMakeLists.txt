@@ -7,12 +7,18 @@ project(CPPDesignPatterns
             
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)            
 
+
+add_subdirectory(1.CREATIONAL)
+add_subdirectory(2.STRUCTURAL)
+add_subdirectory(3.BEHAVIORAL)
+
+
 # Creational
 # add_subdirectory(Builder)
 # add_subdirectory(Factories)
 # add_subdirectory(Prototype)
 # add_subdirectory(Singleton)
-# add_subdirectory()
+
 
 # Structural
 # add_subdirectory(Adapter)
@@ -22,10 +28,10 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 # add_subdirectory(Facade)
 # add_subdirectory(Flyweight)
 # add_subdirectory(Proxy)
-# add_subdirectory(Null Object)
+# add_subdirectory(NullObject)
 
 # Behavioral
-add_subdirectory(Strategy)
+# add_subdirectory(Strategy)
 # add_subdirectory(Template)
 # add_subdirectory(Command)
 # add_subdirectory(ChainOfResponsibility)
@@ -35,5 +41,4 @@ add_subdirectory(Strategy)
 # add_subdirectory(Observer)
 # add_subdirectory(State)
 # add_subdirectory(Visitor)
-# add_subdirectory(Iterator)
 # add_subdirectory(Interpreter)
