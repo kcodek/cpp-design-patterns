@@ -8,11 +8,11 @@ project(STRUCTURAL
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)            
 
 # Structural
-# add_subdirectory(Adapter)
-# add_subdirectory(Bridge)
+add_subdirectory(Adapter)
+add_subdirectory(Bridge)
 # add_subdirectory(Composite)
 # add_subdirectory(Decorator)
-# add_subdirectory(Facade)
-# add_subdirectory(Flyweight)
-# add_subdirectory(Proxy)
+add_subdirectory(Facade)
+add_subdirectory(Flyweight)
+add_subdirectory(Proxy)
 # add_subdirectory(NullObject)

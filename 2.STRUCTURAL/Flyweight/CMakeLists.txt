@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(Factories
+project(Flyweight
         VERSION 1.0.0
         DESCRIPTION "Factory Patterns")   
 
@@ -8,5 +8,5 @@ project(Factories
 set( CMAKE_POSITION_INDEPENDENT_CODE ON )   
 
 
-add_subdirectory(factories_vinceh)
-# add_subdirectory(factories_schmidh)
+add_subdirectory(flyweight_vinceh)
+# add_subdirectory(flyweight_schmidh)
