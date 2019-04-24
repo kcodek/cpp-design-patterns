@@ -9,7 +9,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 # Behavioral
 add_subdirectory(Strategy)
-# add_subdirectory(Template)
+add_subdirectory(Template)
 # add_subdirectory(Command)
 # add_subdirectory(ChainOfResponsibility)
 # add_subdirectory(Interpreter)
