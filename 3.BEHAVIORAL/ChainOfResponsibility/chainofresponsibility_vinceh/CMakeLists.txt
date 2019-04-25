@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.12)
+project(chainofresponsibility_vinceh
+        VERSION 1.0.0
+        DESCRIPTION "ChainOfResponsibility Pattern by Vince Houston")
+
+
+add_executable(chainofresponsibility_before)
+target_sources(chainofresponsibility_before PRIVATE chainofresponsibility_before.cpp)
+target_compile_features(chainofresponsibility_before PRIVATE cxx_std_14) 
+
+add_executable(chainofresponsibility_after)
+target_sources(chainofresponsibility_after PRIVATE chainofresponsibility_after.cpp)
+target_compile_features(chainofresponsibility_after PRIVATE cxx_std_14) 
+
+
+add_executable(chainofresponsibility_demo_1)
+target_sources(chainofresponsibility_demo_1 PRIVATE chainofresponsibility_demo_1.cpp)
+target_compile_features(chainofresponsibility_demo_1 PRIVATE cxx_std_14) 
+
+add_executable(chainofresponsibility_demo_2)
+target_sources(chainofresponsibility_demo_2 PRIVATE chainofresponsibility_demo_2.cpp)
+target_compile_features(chainofresponsibility_demo_2 PRIVATE cxx_std_14) 
+
+add_executable(chainofresponsibility_demo_3)
+target_sources(chainofresponsibility_demo_3 PRIVATE chainofresponsibility_demo_3.cpp)
+target_compile_features(chainofresponsibility_demo_3 PRIVATE cxx_std_14) 
