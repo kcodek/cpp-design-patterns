@@ -12,7 +12,7 @@ using std::endl;
 // Discussion.  Instead of the client having to know about the number of  "handlers", and manually map requests to available handlers;
 // design the handlers into an "intelligent" chain.  Clients "launch and leave" requests with the head of the chain.                       
 
- class H {
+class H {
  public:
     H( H* next = 0 ) {
        id_   = count_++;
@@ -31,7 +31,7 @@ using std::endl;
        next_ = next;
     }
     void handle() {
-       if (busy_ =  !busy_)
+       if (busy_ = !busy_) // warning: using the result of an assignment as a condition without parenthesis
           cout << id_ << " handles" << endl;
        else {
           cout << id_ << " is busy" << endl;
