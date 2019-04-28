@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 
 project(Interpreter
         VERSION 1.0.0
-        DESCRIPTION "Composite Design Pattern")   
+        DESCRIPTION "Interpreter Design Pattern")   
 
 # Always use '-fPIC'/'-fPIE' option.
 set( CMAKE_POSITION_INDEPENDENT_CODE ON )   

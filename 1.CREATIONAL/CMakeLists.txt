@@ -8,7 +8,7 @@ project(CREATIONAL
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)            
 
 # Creational
-# add_subdirectory(Builder)
+add_subdirectory(Builder)
 add_subdirectory(Factories)
-# add_subdirectory(Prototype)
-# add_subdirectory(Singleton)
+add_subdirectory(Prototype)
+add_subdirectory(Singleton)
