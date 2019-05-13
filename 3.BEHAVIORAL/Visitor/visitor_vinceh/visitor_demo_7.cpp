@@ -8,8 +8,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-// Purpose.  Visitor - double dispatch - doing the right thing based on the
-// type of two objects
+// Purpose.  Visitor - double dispatch - doing the right thing based on the type of two objects
 
 
 

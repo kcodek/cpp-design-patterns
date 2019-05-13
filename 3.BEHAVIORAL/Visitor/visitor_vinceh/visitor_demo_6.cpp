@@ -8,8 +8,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-// Purpose.  Undesireable design - double dispatch - doing the right thing based
-// on the type of two objects
+// Purpose.  Undesireable design - double dispatch - doing the right thing based on the type of two objects
 
 class Request { public: virtual string getType() = 0; };
 

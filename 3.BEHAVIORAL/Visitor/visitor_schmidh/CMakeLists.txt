@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(visitor_schmidh
         VERSION 1.0.0
-        DESCRIPTION "Visitor Pattern by Schmid H")
+        DESCRIPTION "Visitor Pattern by Hans-J. Schmid")
 
 
 # Always use '-fPIC'/'-fPIE' option.

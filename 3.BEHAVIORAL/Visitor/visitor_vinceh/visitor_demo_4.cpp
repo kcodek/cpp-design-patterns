@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include<string>
 #include<vector>
@@ -12,13 +11,10 @@ using std::endl;
 // Purpose.  Visitor - recovering lost type information
 // 
 // Motivation.  "My Component classes do not know that Composites exist.
-// They provide no help for navigating Composites, nor any help for
-// altering the contents of a Composite.  This is because I would like the
-// base class (and all its derivatives) to be reusable in contexts that do
-// not require Composites.  When given a base class pointer, if I
-// absolutely need to know whether or not it is a Composite, I will use
-// dynamic_cast() to figure this out.  In those cases where dynamic_cast()
-// is too expensive, I will use a Visitor." [Robert Martin]
+// They provide no help for navigating Composites, nor any help for altering the contents of a Composite.  
+// This is because I would like the base class (and all its derivatives) to be reusable in contexts that do not require Composites.
+// When given a base class pointer, if I absolutely need to know whether or not it is a Composite, I will use dynamic_cast() to figure this out.
+// In those cases where dynamic_cast() is too expensive, I will use a Visitor." [Robert Martin]
 
 
 class Visitor { public:

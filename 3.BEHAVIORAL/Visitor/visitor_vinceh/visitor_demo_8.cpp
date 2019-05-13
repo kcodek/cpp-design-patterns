@@ -10,16 +10,14 @@ using std::endl;
 
 // Purpose.  Acyclic Visitor design pattern [PLOPD vol 3, p93]
 //
-// Problem.  In GOF Visitor, Element depends on Visitor, Visitor depends on
-// all Element derivatives, and Element derivatives depend on Element; this is
-// cyclic dependency.  Additionally, adding an Element derivative requires the
-// entire Visitor hierarchy to change.  "These problems can be solved by using
-// multiple inheritance and dynamic_cast()."
+// Problem.  In GOF Visitor, Element depends on Visitor, Visitor depends on all Element derivatives, 
+// and Element derivatives depend on Element; this is cyclic dependency.  
+// Additionally, adding an Element derivative requires the entire Visitor hierarchy to change. 
+// "These problems can be solved by using multiple inheritance and dynamic_cast()."
 //
 // Solution.  Element derived classes are only coupled to Visitor base class.
-// Visitor derived classes are only coupled to the Element derived classes that
-// they choose to be coupled to.  If a new Element derived class is added,
-// Visitor derived classes can update themselves if, and when, they choose.
+// Visitor derived classes are only coupled to the Element derived classes that they choose to be coupled to.
+// If a new Element derived class is added, Visitor derived classes can update themselves if, and when, they choose.
 
 
 
