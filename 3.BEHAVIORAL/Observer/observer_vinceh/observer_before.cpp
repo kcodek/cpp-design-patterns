@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include<string>
 #include<vector>
@@ -8,6 +7,7 @@ using std::string;
 using std::cin;
 using std::cout;
 using std::endl;
+
 // Purpose.  Observer                   
 //
 // Discussion.  On the left: Subject has hard-wired the number and type of "dependent" objects, the compiler must have the declaration of the  
