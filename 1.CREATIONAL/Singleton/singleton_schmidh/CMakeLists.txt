@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.12)
-project(template_schmidh
+project(singleton_schmidh
         VERSION 1.0.0
-        DESCRIPTION "Template Method Pattern by by Hans-J. Schmid")
+        DESCRIPTION "Singleton Pattern by by Hans-J. Schmid")
 
 
-add_executable(template_method_chess)
-target_sources(template_method_chess PRIVATE template_method_chess.cpp)
-target_compile_features(template_method_chess PRIVATE cxx_std_14) 
+add_executable(SingletonDatabase.cpp)
+target_sources(SingletonDatabase.cpp PRIVATE SingletonDatabase.cpp)
+target_compile_features(SingletonDatabase.cpp PRIVATE cxx_std_14) 

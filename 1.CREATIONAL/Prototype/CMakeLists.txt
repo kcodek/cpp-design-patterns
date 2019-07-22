@@ -9,4 +9,4 @@ set( CMAKE_POSITION_INDEPENDENT_CODE ON )
 
 
 add_subdirectory(prototype_vinceh)
-# add_subdirectory(prototype_schmidh)
+add_subdirectory(prototype_schmidh)
